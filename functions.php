@@ -18,7 +18,7 @@
     }
 
     /**
-	 * Documentation for function.
+	 * Changes post pagination style
 	 */
 	function twentynineteen_the_posts_navigation() {
 		the_posts_pagination(
@@ -28,4 +28,16 @@
 				'next_text' => '<span class="nav-next-text">Older</span> &raquo;'
 			)
 		);
-	}
+    }
+    
+    /**
+     * Filter for recipe titles
+     */
+    function recipe_titles($title, $id = null) {
+        if( in_category( 'recipes', $id ) ) {
+            $title = "Recipe: " . $title;
+        }
+        return $title;
+    }
+
+    add_filter( 'the_title', 'recipe_titles', 10, 2 );
