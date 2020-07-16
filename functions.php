@@ -29,6 +29,14 @@
 			)
 		);
     }
+
+    /**
+	 * Removing author name from posts, 
+     * remove this function if you add new authors
+	 */
+	function twentynineteen_posted_by() {
+        // do nothing
+    }
     
     /**
      * Filter for recipe titles
