@@ -41,3 +41,12 @@
     }
 
     add_filter( 'the_title', 'recipe_titles', 10, 2 );
+
+    /**
+     * Removing widgetized area of footer
+     */
+    function remove_parent_functionality() {
+        remove_action( 'widgets_init', 'twentynineteen_widgets_init' );
+    }
+
+    add_action( 'after_setup_theme', 'remove_parent_functionality' );
