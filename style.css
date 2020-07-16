@@ -74,3 +74,19 @@
     width: auto;
     display: inline-block;
 }
+
+/* 404 page */
+
+.site-content .error-404 .page-text {
+    display: block;
+    float: left;
+    width: 35%;
+}
+
+.site-content .error-404 .page-image {
+    display: block;
+    float: right;
+    width: 20%;
+    margin-right: 8em;
+    margin-top: 5em;
+}
