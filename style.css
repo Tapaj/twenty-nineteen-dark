@@ -51,11 +51,11 @@
 }
 
 /* Making ingredients stand out */
-.category-recipes h2:not(.entry-title):nth-of-type(1):before {
+.category-recipes h2:not(.entry-title, .author-heading):nth-of-type(1):before {
     content: none;
 }
 
-.category-recipes h2:not(.entry-title):nth-of-type(1):after, .category-recipes h2:nth-of-type(2):before {
+.category-recipes h2:not(.entry-title, .author-heading):nth-of-type(1):after, .category-recipes h2:nth-of-type(2):before {
     background: #767676;
     content: "\020";
     display: block;
@@ -66,4 +66,11 @@
 
 .category-recipes ul:first-of-type {
     font-style: italic;
+}
+
+/* Author bio modifications */
+.author-bio .author-heading .avatar {
+    height: auto;
+    width: auto;
+    display: inline-block;
 }
