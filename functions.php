@@ -53,8 +53,15 @@
     /**
      * Removing widgetized area of footer
      */
-    function remove_parent_functionality() {
+    function twentynineteen_child_theme_setup() {
         remove_action( 'widgets_init', 'twentynineteen_widgets_init' );
+
+        // Add a secondary menu to the child theme
+		register_nav_menus(
+			array(
+				'menu-2' => __( 'Secondary', 'twentynineteen' )
+			)
+		);
     }
 
-    add_action( 'after_setup_theme', 'remove_parent_functionality' );
+    add_action( 'after_setup_theme', 'twentynineteen_child_theme_setup' );

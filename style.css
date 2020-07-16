@@ -90,3 +90,8 @@
     margin-right: 8em;
     margin-top: 5em;
 }
+
+/* Secondary Menu */
+.main-navigation + .main-navigation {
+    font-size: 0.7em;
+}
