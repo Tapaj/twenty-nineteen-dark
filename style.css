@@ -92,6 +92,11 @@
 }
 
 /* Secondary Menu */
-.main-navigation + .main-navigation {
+.menu-secondary-menu-container {
     font-size: 0.7em;
+}
+
+.menu-secondary-menu-container p {
+    display: inline;
+    margin-right: 10px;
 }

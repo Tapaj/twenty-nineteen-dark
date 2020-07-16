@@ -49,7 +49,7 @@
 				array(
 					'theme_location' => 'menu-2',
 					'menu_class'     => 'main-menu',
-					'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+					'items_wrap'     => '<p>Company Info:</p><ul id="%1$s" class="%2$s">%3$s</ul>',
 				)
 			);
 			?>
