@@ -1,5 +1,5 @@
 /*
- Theme Name:   Topsy Turvy Cake Design
+ Theme Name:   Twenty Nineteen Dark
  Theme URI:    
  Description:  Twenty Nineteen Child Theme
  Author:       Tapaj Kumar Das
@@ -11,6 +11,28 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twentynineteenchild
 */
+
+/* Setting dark theme and sans-serif fonts */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    line-height: 1.6em;
+
+    color: #a7a9be;
+    background-color: #0f0e17;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fffffe;
+}
+
+.site-title a:link, .site-title a:visited {
+    color: #fffffe;
+}
+
+.main-navigation .main-menu > li > a, .site-header.featured-image .main-navigation a {
+    color: #ff8906;
+}
 
 /* Making blockquotes stand out */
 
@@ -38,6 +60,7 @@
 .entry .entry-content .wp-block-quote:not(.is-large), .entry .entry-content .wp-block-quote:not(.is-style-large) cite {
     display: block;
 }
+
 
 /* Only for recipe posts */
 
