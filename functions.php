@@ -54,7 +54,7 @@
      * Removing widgetized area of footer
      */
     function twentynineteen_child_theme_setup() {
-        remove_action( 'widgets_init', 'twentynineteen_widgets_init' );
+        // remove_action( 'widgets_init', 'twentynineteen_widgets_init' );
 
         // Add a secondary menu to the child theme
 		register_nav_menus(
