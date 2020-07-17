@@ -3,6 +3,8 @@
 A child theme of Twenty Nineteen  
 This is just a test theme for created learning purpose.
 
+![Twenty Nineteen Dark Theme](images/readme-screenshot.png)
+
 ## Pre-requisite
 
 The Twenty Nineteen theme should be installed in your WordPress installation.  
